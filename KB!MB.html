@@ -1,0 +1,139 @@
+<html>
+
+  <head>
+    <title>
+      Khata book
+    </title>
+  </head>
+  <script src="https://unpkg.com/phosphor-icons"></script>
+  <script src="https://kit.fontawesome.com/c69f3890ce.js" crossorigin="anonymous"></script>
+
+  <link href="KB!.css" rel="stylesheet">
+
+  <body>
+    <header>
+
+      <h2> KHATA BOOK</h2>
+
+      <div class="Account">
+        <div class="searchBox">
+          <div class="searchBox1">
+            <i class="ph-magnifying-glass-bold"></i>
+            <input placeholder="Search..." type="text">
+          </div>
+        </div>
+        <img src="https://i.pinimg.com/474x/64/85/47/6485470f7f27323dbee9a9a6f7d37235.jpg" alt="Profile Picture" class="profile-picture" id="profilePicture">
+          
+      </div>
+    </header>
+
+    <hr class="hr1">
+
+    <nav class="nav">
+      <ul class="tabs">
+        <li class="tab">
+          <button class="tab-btn tab-btn--active">
+            <i class="ph-lightbulb-bold"></i>
+            <span class="tab-btn-title">Overview</span>
+          </button>
+        </li>
+        <li class="tab">
+          <button class="tab-btn">
+            <i class="ph-arrows-left-right-bold"></i>
+            <span class="tab-btn-title">Transactions</span>
+          </button>
+        </li>
+        <li class="tab">
+          <button class="tab-btn">
+            <i class="ph-credit-card-bold"></i>
+            <span class="tab-btn-title">Bugdets</span>
+          </button>
+        </li>
+		<li class="tab">
+          <button class="tab-btn">
+            <i class="ph-credit-card-bold"></i>
+            <span class="tab-btn-title"><a href="C:\xampp\htdocs\p\KBMB.html">Add Event</a></span>
+          </button>
+        </li>
+      </ul>
+    </nav>
+    <main>
+      <h1>
+        Your uncompleted Payment
+      </h1>
+      <h1 class="dept">
+        ₹ 40
+      </h1>
+    </main>
+    <div class="main2">
+      <img src="maharshiKBprofie-pic.jpg">
+    </div>
+    <div class="main3">
+        <!--header of main 3 part -->
+        <div class="main3-header">
+      <p> Friends who have not paid </p>
+      <span></span>
+      <a href="#">view all</a>
+        </div>
+        <!-- End of main3's header-->
+
+     <div class="Date-of-trip">
+         <p> 28 June 2023</p>
+     </div>
+     <div class="dept1">
+        <details>
+            <summary><p id="dept">-₹40</p> </summary>
+            
+             <ul>
+                <li>
+                    Pratham
+                </li>
+                <li>
+                    Jay
+                </li>
+                <li>
+                    Priyansh
+                </li>
+                <li>
+                    Maharshi
+                </li>
+             </ul>
+            </details>
+        </div>
+     </div>
+    </div>
+    <div class="profile-card" id="profileCard">
+         
+      <hr style="height: 367px;width: 339.5px; background-image:url(maharshiKBprofie-pic.jpg);border: none;margin-top:-6%;position: absolute; left: 0.1%;border-radius:10px;z-index: -1;filter: blur(3px);"> 
+       <div class="profile-pic3">
+       </div>
+      <h2>Maharshi Bhatt</h2>
+      <p><i class="fa-solid fa-envelope" style="color: #000000;"></i> : Maharshibhattstar@gmail.com</p>
+      <p style="margin-left: 1.5%;"><i class="fa-solid fa-location-dot" style="color: #000000;"></i> : Ahmdabad,Gujarat</p>
+      <p><i class="fa-solid fa-phone" style="color: #000000;"></i> : +91 8178829719</p>
+      
+
+      <hr style="border-radius: 50%;">
+      <div class="social-media">
+       <a href="#"> <i class="fa-brands fa-instagram" style="color: #a4adbc;"></i></a>
+       <a href="#"> <i class="fa-brands fa-facebook" style="color: #a4adbc;"></i></a>
+       <a href="#"> <i class="fa-brands fa-threads" style="color: #a4adbc;"></i></a>
+       <a href="#"> <i class="fa-brands fa-whatsapp" style="color: #a4adbc;"></i></a>
+       <a href="#"> <i class="fa-brands fa-github" style="color: #a4adbc;"></i></a>
+      </div>
+      <hr style="border-radius: 50%;">
+      <button class="logout">
+        <i class="fa-solid fa-arrow-right-from-bracket" style="color: #ffffff;"></i><a href="C:\xampp\htdocs\KB\PasswordKB.html">Log out</a>
+      </button>
+    </div>
+    <script>
+      const profilePicture = document.getElementById('profilePicture');
+const profileCard = document.getElementById('profileCard');
+
+profilePicture.addEventListener('click', () => {
+  profileCard.classList.toggle('active');
+});
+</script>
+  </body>
+
+  </html>
